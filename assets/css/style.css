@@ -1282,6 +1282,7 @@ header {
     background: #fff;
 }
 .plan__point__information2 {
+    display: none;
     position: absolute;
     z-index: 4;
     border-radius: 2.5rem 0;
@@ -1464,6 +1465,9 @@ header {
         background: #692e29;
         color: #fff;
         z-index: 8;
+    }
+    .plan__point__information2 {
+        display: block;
     }
 }
 
