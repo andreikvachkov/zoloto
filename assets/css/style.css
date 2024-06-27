@@ -2655,8 +2655,8 @@ header.black .header__burger svg line {
     letter-spacing: 0.03em;
     color: #3d3d3d;
     padding: 2.25rem 22.5rem 2.25rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.3);
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
     margin: 3.125rem 0;
 }
 .articles__list_name {
@@ -2704,7 +2704,7 @@ header.black .header__burger svg line {
     gap: 0.875rem;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 200%;
     letter-spacing: 0.02em;
     text-transform: uppercase;
@@ -2827,7 +2827,7 @@ header.black .header__burger svg line {
     gap: 2.8125rem;
 }
 .contact__item {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.3);
     padding-top: 1.0625rem;
     display: flex;
     flex-direction: column;
@@ -3223,7 +3223,7 @@ header.black .header__burger svg line {
 }
 .about-descr__left .info .item:last-child {
     padding-left: 3.75rem;
-    border-left: 1px solid rgba(173, 164, 160, 0.3);
+    border-left: 0.0625rem solid rgba(173, 164, 160, 0.3);
 }
 .about-descr__right p {
     font-family: var(--font-family);
@@ -3464,14 +3464,14 @@ header.black .header__burger svg line {
     padding-top: 3.125rem;
 }
 .download__item {
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 0.0625rem solid #dbdbdb;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.6875rem 0;
 }
 .download__item:first-child {
-    border-top: 1px solid #dbdbdb;
+    border-top: 0.0625rem solid #dbdbdb;
 }
 .download__name {
     font-family: var(--second-family);
@@ -3614,7 +3614,7 @@ header.black .header__burger svg line {
     padding-top: 3.9375rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
     padding-bottom: 2.875rem;
 }
 .partner__main .left {
@@ -3645,7 +3645,7 @@ header.black .header__burger svg line {
 }
 .partner__cart .partner__cart__item {
     padding-top: 1.0625rem;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 0.0625rem solid rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: start;
