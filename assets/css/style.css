@@ -2553,6 +2553,18 @@ header.black .header__burger svg line {
     stroke: #3d3d3d;
 }
 
+header.black2 .header__tel .ico svg path {
+    fill: black;
+}
+header.black2 .header__logo {
+    color: #3d3d3d;
+}
+header.black2 .header__tel {
+    color: #3d3d3d;
+}
+header.black2 .header__burger svg line {
+    stroke: #3d3d3d;
+}
 /* article start  */
 
 .article {
@@ -2893,7 +2905,7 @@ header.black .header__burger svg line {
 
 /* notfounded start  */
 .notfounded {
-    height: 100%;
+    height: 100vh;
     margin-top: 3.125rem;
     position: relative;
 }

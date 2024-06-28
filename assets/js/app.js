@@ -353,10 +353,10 @@ jQuery(document).ready(function ($) {
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 100) {
-            $('header').addClass('black');
+            $('header').addClass('black2');
             $('header').addClass('scrolled');
         } else {
-            $('header').removeClass('black');
+            $('header').removeClass('black2');
             $('header').removeClass('scrolled');
         }
     });
