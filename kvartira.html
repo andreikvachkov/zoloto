@@ -72,8 +72,275 @@
             </div>
         </div>
     </div>
+    <section class="kvartira">
+        <div class="kvartira__container">
+            <div class="kvartira__wrap">
+                <div class="kvartira__header">
+                    <div class="kvartira__title">
+                        <h1>
+                            1-к квартира
+                        </h1>
+                    </div>
+                    <div class="kvartira__price">
+                        4.805 млн
+                    </div>
+                </div>
+                <div class="kvartira__main">
+                    <div class="left">
+                        <div class="kvartira__tab">
+                            <button class="kvartira__tablinks active"
+                                onclick="openCity(event, 'Планировка')">Планировка</button>
+                            <button class="kvartira__tablinks" onclick="openCity(event, 'на Этаже')">на Этаже</button>
+                        </div>
+                        <div id="Планировка" class="kvartira__tabcontent active">
+                            <img src="assets/images/kvartira.png" alt="">
+                        </div>
+                        <div id="на Этаже" class="kvartira__tabcontent">
+                            <img src="assets/images/kvartira.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="kvartira__specifications">
+                            <div class="specifications__item">
+                                <div class="specifications__item__name">
+                                    Площадь
+                                </div>
+                                <div class="specifications__item__text">
+                                    42.5 м2
+                                </div>
+                            </div>
+                            <div class="specifications__item">
+                                <div class="specifications__item__name">
+                                    Корпус
+                                </div>
+                                <div class="specifications__item__text">
+                                    2
+                                </div>
+                            </div>
+                            <div class="specifications__item">
+                                <div class="specifications__item__name">
+                                    Подъезд / этаж
+                                </div>
+                                <div class="specifications__item__text">
+                                    3 / 5
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kvartira__descr">
+                            Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться
+                        </div>
+                        <div class="kvartira__ipoteka">
+                            <div>
+                                <div class="kvartira__ipoteka__price">
+                                    Ипотека от 35.000 руб/мес
+                                </div>
+                                <div class="kvartira__ipoteka__kol">
+                                    22 предложения
+                                </div>
+                            </div>
+                            <div>
+                                <a href="">
+                                    Рассчитать
+                                </a>
+                            </div>
+                        </div>
+                        <div class="kvartira__buttons">
+                            <button class="bron">
+                                Забронировать
+                            </button>
+                            <button class="konsul" id="openPopup">
+                                заказать консультацию
+                            </button>
+                        </div>
+                        <div class="kvartira__charitem">
+                            <div class="kvartira__charitem__name">
+                                Характеристики
+                            </div>
+                            <ul>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="kvartira__charitem">
+                            <div class="kvartira__charitem__name">
+                                Характеристики
+                            </div>
+                            <ul>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="name">
+                                        Стоимость
+                                    </span>
+                                    <span class="line">
+                                    </span>
+                                    <span class="price">
+                                        4.805 млн
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
 
-    <section class="feedback">
+            tabcontent = document.getElementsByClassName("kvartira__tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+
+            tablinks = document.getElementsByClassName("kvartira__tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+
+            document.getElementById(cityName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+    <section class="finishing">
+        <div class="finishing__container">
+            <div class="finishing__wrap">
+                <div class="finishing__title">
+                    <h2>
+                        Отделка
+                    </h2>
+                </div>
+                <div class="finishing__main">
+                    <div class="finishing__nav-buttons">
+                        <button class="active" data-slide="0">Гостиная</button>
+                        <button data-slide="1">Кухня</button>
+                        <button data-slide="2">Санузел</button>
+                        <button data-slide="3">Балкон</button>
+                        <button data-slide="4">Прихожая</button>
+                    </div>
+                    <div class="finishing__slider__container">
+                        <div class="finishing__slider">
+                            <div class="slide">
+                                <img src="assets/images/kvartira.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/kvartira.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/kvartira.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/kvartira.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/kvartira.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="finishing__slider__btn">
+                            <button id="finishingPrevButton">
+                                <svg width="165" height="111" viewBox="0 0 165 111" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M69.6464 60.3535C69.4512 60.1583 69.4512 59.8417 69.6464 59.6464L72.8284 56.4645C73.0237 56.2692 73.3403 56.2692 73.5355 56.4645C73.7308 56.6597 73.7308 56.9763 73.5355 57.1716L70.7071 60L73.5355 62.8284C73.7308 63.0237 73.7308 63.3403 73.5355 63.5355C73.3403 63.7308 73.0237 63.7308 72.8284 63.5355L69.6464 60.3535ZM165 60.5L70 60.5L70 59.5L165 59.5L165 60.5Z"
+                                        fill="white" />
+                                    <circle cx="55.5" cy="55.5" r="55" transform="matrix(-1 0 0 1 111 0)"
+                                        stroke="#D9D9D9" />
+                                </svg>
+                            </button>
+                            <button id="finishingNextButton">
+                                <svg width="165" height="111" viewBox="0 0 165 111" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M95.3536 60.3535C95.5488 60.1583 95.5488 59.8417 95.3536 59.6464L92.1716 56.4645C91.9763 56.2692 91.6597 56.2692 91.4645 56.4645C91.2692 56.6597 91.2692 56.9763 91.4645 57.1716L94.2929 60L91.4645 62.8284C91.2692 63.0237 91.2692 63.3403 91.4645 63.5355C91.6597 63.7308 91.9763 63.7308 92.1716 63.5355L95.3536 60.3535ZM4.37114e-08 60.5L95 60.5L95 59.5L-4.37114e-08 59.5L4.37114e-08 60.5Z"
+                                        fill="white" />
+                                    <circle cx="109.5" cy="55.5" r="55" stroke="#D9D9D9" />
+                                </svg>
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback kvartira__feedback">
         <div class="container">
             <div class="feedback__wrap">
                 <div class="feedback__left">
@@ -119,16 +386,13 @@
             </div>
         </div>
     </section>
-    <section class="payment">
+    <section class="payment kvartira__payment">
         <div class="container">
             <div class="payment__wrap">
                 <div class="title">
                     <h2>
                         <span>
-                            Доступные формы
-                        </span>
-                        <span>
-                            оплаты
+                            Доступные формы оплаты
                         </span>
                     </h2>
                 </div>
@@ -891,17 +1155,191 @@
             </div>
         </div>
     </section>
+    <section class="similar">
+        <div class="similar__container">
+            <div class="similar__wrap">
+                <div class="similar__title">
+                    <h2>
+                        Похожие варианты
+                    </h2>
+                </div>
+                <div class="similar__main" id="similar-slider">
+                    <div class="similar__item">
+                        <div class="similar__item__header">
+                            <div class="similar__item__name">
+                                1-к квартира
+                            </div>
+                            <div class="similar__item__price">
+                                4.805 млн
+                            </div>
+                        </div>
+                        <div class="similar__item__img">
+                            <img src="assets/images/similar.png" alt="">
+                        </div>
+                        <div class="similar__item__info">
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Площадь
+                                </div>
+                                <div class="info__item__text">
+                                    42.5 м2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Корпус
+                                </div>
+                                <div class="info__item__text">
+                                    2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Подъезд / этаж
+                                </div>
+                                <div class="info__item__text">
+                                    3 / 5
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="similar__item">
+                        <div class="similar__item__header">
+                            <div class="similar__item__name">
+                                1-к квартира
+                            </div>
+                            <div class="similar__item__price">
+                                4.805 млн
+                            </div>
+                        </div>
+                        <div class="similar__item__img">
+                            <img src="assets/images/similar.png" alt="">
+                        </div>
+                        <div class="similar__item__info">
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Площадь
+                                </div>
+                                <div class="info__item__text">
+                                    42.5 м2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Корпус
+                                </div>
+                                <div class="info__item__text">
+                                    2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Подъезд / этаж
+                                </div>
+                                <div class="info__item__text">
+                                    3 / 5
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="similar__item">
+                        <div class="similar__item__header">
+                            <div class="similar__item__name">
+                                1-к квартира
+                            </div>
+                            <div class="similar__item__price">
+                                4.805 млн
+                            </div>
+                        </div>
+                        <div class="similar__item__img">
+                            <img src="assets/images/similar.png" alt="">
+                        </div>
+                        <div class="similar__item__info">
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Площадь
+                                </div>
+                                <div class="info__item__text">
+                                    42.5 м2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Корпус
+                                </div>
+                                <div class="info__item__text">
+                                    2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Подъезд / этаж
+                                </div>
+                                <div class="info__item__text">
+                                    3 / 5
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="similar__item">
+                        <div class="similar__item__header">
+                            <div class="similar__item__name">
+                                1-к квартира
+                            </div>
+                            <div class="similar__item__price">
+                                4.805 млн
+                            </div>
+                        </div>
+                        <div class="similar__item__img">
+                            <img src="assets/images/similar.png" alt="">
+                        </div>
+                        <div class="similar__item__info">
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Площадь
+                                </div>
+                                <div class="info__item__text">
+                                    42.5 м2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Корпус
+                                </div>
+                                <div class="info__item__text">
+                                    2
+                                </div>
+                            </div>
+                            <div class="info__item">
+                                <div class="info__item__name">
+                                    Подъезд / этаж
+                                </div>
+                                <div class="info__item__text">
+                                    3 / 5
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="similar__slider__button">
+                    <button id="similarPrevButton">
+                        <img src="assets/images/left.svg" alt="">
+                    </button>
+                    <button id="similarNextButton">
+                        <img src="assets/images/right.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="advantages">
+    <section class="advantages kvartira__advantages">
         <div class="container">
             <div class="advantages__wrap">
                 <div class="title">
                     <h2>
                         <span>
-                            преимущества
-                        </span>
-                        <span>
-                            жк “золотой берег”
+                            преимущества жк “золотой берег”
                         </span>
                     </h2>
                 </div>
@@ -1129,6 +1567,51 @@
                     <a href="">
                         +7 (000) 000-00-00
                     </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popupForm" id="popupForm">
+        <div class="popupForm__container">
+            <button class="popupFormClose" id="closePopup">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="21.9238" y1="7.6302" x2="7.63093" y2="21.9231" stroke="#272727" stroke-linecap="round" />
+                    <line x1="7.63093" y1="8.0769" x2="21.9238" y2="22.3698" stroke="#272727" stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="popupForm__wrap">
+                <div class="popupForm__title">
+                    Заказать консультацию
+                </div>
+                <div class="popupForm__text">
+                    Мы ответим в ближайшее время
+                </div>
+                <div class="popupForm__form">
+                    <form action="">
+                        <div class="popupForm__form__item">
+                            <input type="text" placeholder="Имя">
+                        </div>
+                        <div class="popupForm__form__item popupForm__form__item__two">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Телефон">
+                        </div>
+                        <div class="popupForm__form__item">
+                            <textarea name="message" id="message" placeholder="Комментарий"></textarea>
+                        </div>
+                        <div class="custom-checkbox">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">Я принимаю условия Пользовательского соглашения</label>
+                        </div>
+                        <div class="custom-checkbox">
+                            <input type="checkbox" id="consent2" name="consent2" required>
+                            <label for="consent2">Я даю согласие на обработку моих персональных данных в соответствии с
+                                Федеральным законом от 27.07.2006 152 ФЗ «О персональных данных» на условиях и для
+                                целей, определенных Политикой конфиденциальности</label>
+                        </div>
+                        <button>
+                            отправить запрос
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
