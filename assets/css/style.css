@@ -4841,7 +4841,9 @@ input[type="range"]::-moz-range-thumb {
     text-align: center;
     color: #d9d9d9;
 }
-
+.choosing-header__title .filter__position {
+    display: none;
+}
 @media (max-width: 768px) {
     .choosing-header {
         padding: 5rem 0 3.125rem;
