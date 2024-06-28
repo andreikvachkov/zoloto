@@ -2553,18 +2553,7 @@ header.black .header__burger svg line {
     stroke: #3d3d3d;
 }
 
-header.black2 .header__tel .ico svg path {
-    fill: black;
-}
-header.black2 .header__logo {
-    color: #3d3d3d;
-}
-header.black2 .header__tel {
-    color: #3d3d3d;
-}
-header.black2 .header__burger svg line {
-    stroke: #3d3d3d;
-}
+
 /* article start  */
 
 .article {
@@ -5152,3 +5141,18 @@ header.chose .header__burger svg line {
     }
 }
 /* catalog-line end  */
+header.black2 .header__tel .ico svg path {
+    fill: black;
+}
+header.black2 .header__logo {
+    color: #3d3d3d;
+}
+header.black2 .header__tel {
+    color: #3d3d3d;
+}
+header.black2 .header__burger svg line {
+    stroke: #3d3d3d;
+}
+header.chose.black2 .header__burger svg line {
+    stroke: #3d3d3d;
+}
